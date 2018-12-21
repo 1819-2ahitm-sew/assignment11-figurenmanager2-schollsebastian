@@ -86,7 +86,7 @@ public class Main extends PApplet {
 
     public void setup() {
         frameRate(60);
-        fill(209);
+        noFill();
     }
 
     public void draw() {
