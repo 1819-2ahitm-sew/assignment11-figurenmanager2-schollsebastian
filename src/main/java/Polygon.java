@@ -1,15 +1,15 @@
 import java.util.List;
 
 public class Polygon extends Figure {
-    private List<Double[]> coordinates;
+    private List<Float[]> coordinates;
 
-    public Polygon(List<Double[]> coordinates) {
+    public Polygon(List<Float[]> coordinates) {
         this.coordinates = coordinates;
     }
 
     @Override
-    public double area() {
-        double area = 0;
+    public float area() {
+        float area = 0;
 
         for (int i = 0; i < coordinates.size(); i++) {
             if (i == coordinates.size() - 1){
@@ -24,8 +24,8 @@ public class Polygon extends Figure {
     }
 
     @Override
-    public double circumference() {
-        double circumference = 0d;
+    public float circumference() {
+        float circumference = 0f;
 
         for (int i = 0; i < coordinates.size(); i++) {
             if(i == coordinates.size() - 1){
@@ -57,11 +57,11 @@ public class Polygon extends Figure {
     }
 
     //region Getter and Setter
-    public List<Double[]> getCoordinates() {
+    public List<Float[]> getCoordinates() {
         return coordinates;
     }
 
-    public void setCoordinates(List<Double[]> coordinates) {
+    public void setCoordinates(List<Float[]> coordinates) {
         this.coordinates = coordinates;
     }
     //endregion

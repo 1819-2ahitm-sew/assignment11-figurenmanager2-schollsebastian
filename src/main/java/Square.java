@@ -1,19 +1,19 @@
 public class Square extends Figure {
-    private double[] coordinates = new double[2];
-    private double length;
+    private float[] coordinates = new float[2];
+    private float length;
 
-    public Square(double[] coordinates, double length) {
+    public Square(float[] coordinates, float length) {
         this.setCoordinates(coordinates);
         this.setLength(length);
     }
 
     @Override
-    public double area() {
+    public float area() {
         return getLength() * getLength();
     }
 
     @Override
-    public double circumference() {
+    public float circumference() {
         return 4 * getLength();
     }
 
@@ -23,19 +23,19 @@ public class Square extends Figure {
     }
 
     //region Getter and Setter
-    public double[] getCoordinates() {
+    public float[] getCoordinates() {
         return coordinates;
     }
 
-    public void setCoordinates(double[] coordinates) {
+    public void setCoordinates(float[] coordinates) {
         this.coordinates = coordinates;
     }
 
-    public double getLength() {
+    public float getLength() {
         return length;
     }
 
-    public void setLength(double length) {
+    public void setLength(float length) {
         this.length = length;
     }
     //endregion

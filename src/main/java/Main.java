@@ -1,12 +1,16 @@
+import processing.core.PApplet;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+public class Main extends PApplet {
 
     private static List<Figure> figures = new ArrayList<Figure>();
+    private static boolean stop = false;
 
     public static void main(String[] args) {
+        PApplet.main("Main", args);
+
         String input = readFromKeyboard("-----------------------------------------\n" +
                 "1 - Figur erstellen\n" +
                 "2 - Figuren nach Fläche sortiert ausgeben\n" +
@@ -27,7 +31,7 @@ public class Main {
                             System.out.println("Figuren nach Fläche sortiert:");
                             for (int i = 1; i <= figures.size(); i++) {
                                 for (int j = 0; j < figures.size() - i; j++) {
-                                    if (figures.get(j).area() < figures.get(j + 1).area()) {
+                                    if (figures.get(j).area() > figures.get(j + 1).area()) {
                                         Figure help = figures.get(j);
                                         figures.set(j, figures.get(j + 1));
                                         figures.set(j + 1, help);
@@ -46,7 +50,7 @@ public class Main {
                             System.out.println("Figuren nach Umfang sortiert:");
                             for (int i = 1; i <= figures.size(); i++) {
                                 for (int j = 0; j < figures.size() - i; j++) {
-                                    if (figures.get(j).circumference() < figures.get(j + 1).circumference()) {
+                                    if (figures.get(j).circumference() > figures.get(j + 1).circumference()) {
                                         Figure help = figures.get(j);
                                         figures.set(j, figures.get(j + 1));
                                         figures.set(j + 1, help);
@@ -72,6 +76,53 @@ public class Main {
                 System.out.println("-----------------------------------------");
             }
         }
+
+        stop = true;
+    }
+
+    public void settings() {
+        size(800, 800);
+    }
+
+    public void setup() {
+        frameRate(60);
+        fill(209);
+    }
+
+    public void draw() {
+        if (!stop) {
+            for (Figure figure : figures) {
+                if (figure instanceof Polygon) {
+                    for (int i = 0; i < ((Polygon) figure).getCoordinates().size() - 1; i++) {
+                        line(((Polygon) figure).getCoordinates().get(i)[0],
+                                ((Polygon) figure).getCoordinates().get(i)[1],
+                                ((Polygon) figure).getCoordinates().get(i + 1)[0],
+                                ((Polygon) figure).getCoordinates().get(i + 1)[1]);
+                    }
+                    line(((Polygon) figure).getCoordinates().get(((Polygon) figure).getCoordinates().size() - 1)[0],
+                            ((Polygon) figure).getCoordinates().get(((Polygon) figure).getCoordinates().size() - 1)[1],
+                            ((Polygon) figure).getCoordinates().get(0)[0],
+                            ((Polygon) figure).getCoordinates().get(0)[1]);
+                } else if (figure instanceof Rectangle) {
+                    rect(((Rectangle) figure).getCoordinates()[0],
+                            ((Rectangle) figure).getCoordinates()[1],
+                            ((Rectangle) figure).getLength(),
+                            ((Rectangle) figure).getWidth());
+                } else if (figure instanceof Square) {
+                    rect(((Square) figure).getCoordinates()[0],
+                            ((Square) figure).getCoordinates()[1],
+                            ((Square) figure).getLength(),
+                            ((Square) figure).getLength());
+                } else if (figure instanceof Ellipse) {
+                    ellipse(((Ellipse) figure).getCoordinates()[0],
+                            ((Ellipse) figure).getCoordinates()[1],
+                            ((Ellipse) figure).getMainAxis(),
+                            ((Ellipse) figure).getMinorAxis());
+                }
+            }
+        } else {
+            exit();
+        }
     }
 
     private static void createFigure() {
@@ -81,13 +132,13 @@ public class Main {
                 "4 - Ellipse\n" +
                 "5 - Abbrechen\n\n" +
                 "Eingabe: ", 5);
-        double a;
-        double b;
-        double[] coordinates = new double[2];
+        float a;
+        float b;
+        float[] coordinates = new float[2];
 
         switch (input.charAt(0)) {
             case '1':
-                List<Double[]> coordinatesPolygon = new ArrayList<Double[]>();
+                List<Float[]> coordinatesPolygon = new ArrayList<Float[]>();
                 String coordinateString;
 
                 System.out.println("\nKoordinaten ('stop' beendet die Eingabe):");
@@ -95,39 +146,39 @@ public class Main {
 
                 for (int i = 2; !coordinateString.equalsIgnoreCase("stop"); i++) {
                     if (!coordinateString.equalsIgnoreCase("stop")) {
-                        Double[] newCoordinates = new Double[2];
+                        Float[] newCoordinates = new Float[2];
 
-                        newCoordinates[0] = Double.valueOf(coordinateString.split("\\|")[0]);
-                        newCoordinates[1] = Double.valueOf(coordinateString.split("\\|")[1]);
+                        newCoordinates[0] = Float.valueOf(coordinateString.split("\\|")[0]);
+                        newCoordinates[1] = Float.valueOf(coordinateString.split("\\|")[1]);
 
                         coordinatesPolygon.add(newCoordinates);
                     }
-                    coordinateString = readFromKeyboard("   " + i + ". Punkt [x|y]: ", -1);
+                    coordinateString = readFromKeyboard("   " + i + ". Punkt <x|y>: ", -1);
                 }
 
                 figures.add(new Polygon(coordinatesPolygon));
                 break;
             case '2':
                 System.out.println("\nRechteck:");
-                a = Double.valueOf(readFromKeyboard("   Länge: ", -1));
-                b = Double.valueOf(readFromKeyboard("   Breite: ", -1));
-                coordinates[0] = Double.valueOf(readFromKeyboard("   x-Koordinate des linken oberen Punktes: ", -1));
-                coordinates[1] = Double.valueOf(readFromKeyboard("   y-Koordinate des linken oberen Punktes: ", -1));
+                a = Float.valueOf(readFromKeyboard("   Länge: ", -1));
+                b = Float.valueOf(readFromKeyboard("   Breite: ", -1));
+                coordinates[0] = Float.valueOf(readFromKeyboard("   x-Koordinate des linken oberen Punktes: ", -1));
+                coordinates[1] = Float.valueOf(readFromKeyboard("   y-Koordinate des linken oberen Punktes: ", -1));
                 figures.add(new Rectangle(coordinates, a, b));
                 break;
             case '3':
                 System.out.println("\nQuadrat:");
-                a = Double.valueOf(readFromKeyboard("   Länge: ", -1));
-                coordinates[0] = Double.valueOf(readFromKeyboard("   x-Koordinate des linken oberen Punktes: ", -1));
-                coordinates[1] = Double.valueOf(readFromKeyboard("   y-Koordinate des linken oberen Punktes: ", -1));
+                a = Float.valueOf(readFromKeyboard("   Länge: ", -1));
+                coordinates[0] = Float.valueOf(readFromKeyboard("   x-Koordinate des linken oberen Punktes: ", -1));
+                coordinates[1] = Float.valueOf(readFromKeyboard("   y-Koordinate des linken oberen Punktes: ", -1));
                 figures.add(new Square(coordinates, a));
                 break;
             case '4':
                 System.out.println("\nEllipse:");
-                a = Double.valueOf(readFromKeyboard("   Hauptachse: ", -1));
-                b = Double.valueOf(readFromKeyboard("   Nebenachse: ", -1));
-                coordinates[0] = Double.valueOf(readFromKeyboard("   x-Koordinate des Mittelpunktes: ", -1));
-                coordinates[1] = Double.valueOf(readFromKeyboard("   y-Koordinate des Mittelpunktes: ", -1));
+                a = Float.valueOf(readFromKeyboard("   Hauptachse: ", -1));
+                b = Float.valueOf(readFromKeyboard("   Nebenachse: ", -1));
+                coordinates[0] = Float.valueOf(readFromKeyboard("   x-Koordinate des Mittelpunktes: ", -1));
+                coordinates[1] = Float.valueOf(readFromKeyboard("   y-Koordinate des Mittelpunktes: ", -1));
                 figures.add(new Ellipse(coordinates, a, b));
                 break;
         }

@@ -1,21 +1,21 @@
 public class Rectangle extends Figure {
-    private double[] coordinates = new double[2];
-    private double length;
-    private double width;
+    private float[] coordinates = new float[2];
+    private float length;
+    private float width;
 
-    public Rectangle(double[] coordinates, double length, double width) {
+    public Rectangle(float[] coordinates, float length, float width) {
         this.setCoordinates(coordinates);
         this.setLength(length);
         this.setWidth(width);
     }
 
     @Override
-    public double area() {
+    public float area() {
         return getLength() * getWidth();
     }
 
     @Override
-    public double circumference() {
+    public float circumference() {
         return 2 * (getLength() + getWidth());
     }
 
@@ -25,27 +25,27 @@ public class Rectangle extends Figure {
     }
 
     //region Getter and Setter
-    public double[] getCoordinates() {
+    public float[] getCoordinates() {
         return coordinates;
     }
 
-    public void setCoordinates(double[] coordinates) {
+    public void setCoordinates(float[] coordinates) {
         this.coordinates = coordinates;
     }
 
-    public double getLength() {
+    public float getLength() {
         return length;
     }
 
-    public void setLength(double length) {
+    public void setLength(float length) {
         this.length = length;
     }
 
-    public double getWidth() {
+    public float getWidth() {
         return width;
     }
 
-    public void setWidth(double width) {
+    public void setWidth(float width) {
         this.width = width;
     }
     //endregion

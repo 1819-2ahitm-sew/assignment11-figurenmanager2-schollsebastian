@@ -1,6 +1,6 @@
 public abstract class Figure {
-    public abstract double area();
-    public abstract double circumference();
+    public abstract float area();
+    public abstract float circumference();
 
     @Override
     public String toString() {
