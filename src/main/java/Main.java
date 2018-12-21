@@ -93,16 +93,19 @@ public class Main extends PApplet {
         if (!stop) {
             for (Figure figure : figures) {
                 if (figure instanceof Polygon) {
-                    for (int i = 0; i < ((Polygon) figure).getCoordinates().size() - 1; i++) {
-                        line(((Polygon) figure).getCoordinates().get(i)[0],
-                                ((Polygon) figure).getCoordinates().get(i)[1],
-                                ((Polygon) figure).getCoordinates().get(i + 1)[0],
-                                ((Polygon) figure).getCoordinates().get(i + 1)[1]);
+                    for (int i = 0; i < ((Polygon) figure).getCoordinates().size(); i++) {
+                        if (i == ((Polygon) figure).getCoordinates().size() - 1) {
+                            line(((Polygon) figure).getCoordinates().get(i)[0],
+                                    ((Polygon) figure).getCoordinates().get(i)[1],
+                                    ((Polygon) figure).getCoordinates().get(0)[0],
+                                    ((Polygon) figure).getCoordinates().get(0)[1]);
+                        } else {
+                            line(((Polygon) figure).getCoordinates().get(i)[0],
+                                    ((Polygon) figure).getCoordinates().get(i)[1],
+                                    ((Polygon) figure).getCoordinates().get(i + 1)[0],
+                                    ((Polygon) figure).getCoordinates().get(i + 1)[1]);
+                        }
                     }
-                    line(((Polygon) figure).getCoordinates().get(((Polygon) figure).getCoordinates().size() - 1)[0],
-                            ((Polygon) figure).getCoordinates().get(((Polygon) figure).getCoordinates().size() - 1)[1],
-                            ((Polygon) figure).getCoordinates().get(0)[0],
-                            ((Polygon) figure).getCoordinates().get(0)[1]);
                 } else if (figure instanceof Rectangle) {
                     rect(((Rectangle) figure).getCoordinates()[0],
                             ((Rectangle) figure).getCoordinates()[1],
