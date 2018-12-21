@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf983c15-75fd-4bdf-9df7-8550d6ffdf85" name="Default Changelist" comment="" />
+    <list default="true" id="cf983c15-75fd-4bdf-9df7-8550d6ffdf85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ellipse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ellipse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polygon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Square.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,40 +20,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-332721636">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="10" />
-          <entry key="java" value="795" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="795" />
-          <entry key="PLAIN_TEXT" value="10" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor" />
@@ -52,44 +30,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Polygon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="35" selection-start-column="35" selection-end-column="35" />
+            <state relative-caret-position="415">
+              <caret line="104" column="76" selection-start-line="104" selection-start-column="76" selection-end-line="104" selection-end-column="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#142#150#0" expanded="true" />
+                <element signature="e#4003#4013#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Polygon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
+              <folding>
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="n#!!doc;n#getCoordinates#0;n#Polygon#0" />
+                <element signature="e#1312#1313#0" expanded="true" />
+                <element signature="e#1346#1347#0" expanded="true" />
+                <element signature="e#1408#1409#0" expanded="true" />
+                <element signature="e#1454#1455#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+            <state relative-caret-position="391">
+              <caret line="23" column="104" lean-forward="true" selection-start-line="23" selection-start-column="104" selection-end-line="23" selection-end-column="104" />
               <folding>
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
-                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
                 <element signature="n#!!doc;n#getCoordinates#0;n#Rectangle#0" />
-                <element signature="e#407#408#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#597#598#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-                <element signature="e#806#807#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,24 +87,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Square.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
+            <state relative-caret-position="289">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
               <folding>
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
                 <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="n#!!doc;n#getCoordinates#0;n#Quadrat#0" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#750#751#0" expanded="true" />
-                <element signature="e#806#807#0" expanded="true" />
-                <element signature="e#852#853#0" expanded="true" />
-                <element signature="e#885#886#0" expanded="true" />
-                <element signature="e#914#915#0" expanded="true" />
-                <element signature="e#958#959#0" expanded="true" />
-                <element signature="e#994#995#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="n#!!doc;n#getCoordinates#0;n#Square#0" />
               </folding>
             </state>
           </provider>
@@ -133,24 +101,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Ellipse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="118" selection-start-line="24" selection-start-column="118" selection-end-line="24" selection-end-column="118" />
+            <state relative-caret-position="374">
+              <caret line="24" column="118" lean-forward="true" selection-start-line="24" selection-start-column="118" selection-end-line="24" selection-end-column="118" />
               <folding>
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
                 <element signature="n#!!doc;n#getCoordinates#0;n#Ellipse#0" />
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
-                <element signature="e#851#852#0" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
-                <element signature="e#970#971#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
                 <element signature="e#1006#1007#0" expanded="true" />
-                <element signature="e#1038#1039#0" expanded="true" />
-                <element signature="e#1088#1089#0" expanded="true" />
-                <element signature="e#1130#1131#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,11 +115,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Figure.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+            <state relative-caret-position="34">
+              <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
               <folding>
-                <element signature="e#158#159#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -178,13 +134,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>input()</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Polygon.java" />
         <option value="$PROJECT_DIR$/src/main/java/DrawingFigure.java" />
         <option value="$PROJECT_DIR$/src/main/java/Rechteck.java" />
         <option value="$PROJECT_DIR$/src/main/java/Quadrat.java" />
@@ -192,20 +152,34 @@
         <option value="$PROJECT_DIR$/src/main/java/Ellipse.java" />
         <option value="$PROJECT_DIR$/src/main/java/Square.java" />
         <option value="$PROJECT_DIR$/src/main/java/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Polygon.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="67" />
-    <option name="y" value="25" />
-    <option name="width" value="927" />
-    <option name="height" value="1055" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="figurenmanager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -213,43 +187,15 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Figurenmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assignment11-figurenmanager2-schollsebastian" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Figurenmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assignment11-figurenmanager2-schollsebastian" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Figurenmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assignment11-figurenmanager2-schollsebastian" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Figurenmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assignment11-figurenmanager2-schollsebastian" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544779601149" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545350483439" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../assignment11-figurenmanager2-StarkaLukas" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -266,6 +212,20 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="figurenmanager" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -277,68 +237,83 @@
       <option name="presentableId" value="Default" />
       <updated>1544775798428</updated>
       <workItem from="1544775802020" duration="4412000" />
+      <workItem from="1545334739865" duration="15728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4412000" />
+    <option name="totallyTimeSpent" value="20140000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="927" height="1055" extended-state="4" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24971624" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.117803834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" weight="0.32978722" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32972974" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Maven" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>figure</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>figures.size</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((ArrayList) figures).size</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Polygon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DrawingFigure.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -347,87 +322,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Figure.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/NumberFormatException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
-          <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="452">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Ellipse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="118" selection-start-line="24" selection-start-column="118" selection-end-line="24" selection-end-column="118" />
+        <state relative-caret-position="374">
+          <caret line="24" column="118" lean-forward="true" selection-start-line="24" selection-start-column="118" selection-end-line="24" selection-end-column="118" />
           <folding>
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
             <element signature="n#!!doc;n#getCoordinates#0;n#Ellipse#0" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
             <element signature="e#1006#1007#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
-            <element signature="e#1130#1131#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Square.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
+        <state relative-caret-position="289">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           <folding>
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
             <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="n#!!doc;n#getCoordinates#0;n#Quadrat#0" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-            <element signature="e#914#915#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#994#995#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="n#!!doc;n#getCoordinates#0;n#Square#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Figure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+        <state relative-caret-position="391">
+          <caret line="23" column="104" lean-forward="true" selection-start-line="23" selection-start-column="104" selection-end-line="23" selection-end-column="104" />
           <folding>
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
             <element signature="n#!!doc;n#getCoordinates#0;n#Rectangle#0" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="104" column="76" selection-start-line="104" selection-start-column="76" selection-end-line="104" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#142#150#0" expanded="true" />
+            <element signature="e#4003#4013#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Polygon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="n#!!doc;n#getCoordinates#0;n#Polygon#0" />
+            <element signature="e#1312#1313#0" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
+            <element signature="e#1408#1409#0" expanded="true" />
+            <element signature="e#1454#1455#0" expanded="true" />
           </folding>
         </state>
       </provider>

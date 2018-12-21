@@ -3,7 +3,7 @@ public class Rectangle extends Figure {
     private double length;
     private double width;
 
-    public Rectangle(double[] coordinates, int length, int width) {
+    public Rectangle(double[] coordinates, double length, double width) {
         this.setCoordinates(coordinates);
         this.setLength(length);
         this.setWidth(width);
@@ -15,7 +15,7 @@ public class Rectangle extends Figure {
     }
 
     @Override
-    public double circumferemce() {
+    public double circumference() {
         return 2 * (getLength() + getWidth());
     }
 
@@ -37,7 +37,7 @@ public class Rectangle extends Figure {
         return length;
     }
 
-    public void setLength(int length) {
+    public void setLength(double length) {
         this.length = length;
     }
 
@@ -45,8 +45,8 @@ public class Rectangle extends Figure {
         return width;
     }
 
-    public void setWidth(int width) {
+    public void setWidth(double width) {
         this.width = width;
     }
-    //endregionr
+    //endregion
 }

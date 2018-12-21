@@ -3,7 +3,7 @@ public class Ellipse extends Figure {
     private double mainAxis;
     private double minorAxis;
 
-    public Ellipse(double[] coordinates, int mainAxis, int minorAxis) {
+    public Ellipse(double[] coordinates, double mainAxis, double minorAxis) {
         this.setCoordinates(coordinates);
         this.setMainAxis(mainAxis);
         this.setMinorAxis(minorAxis);
@@ -15,7 +15,7 @@ public class Ellipse extends Figure {
     }
 
     @Override
-    public double circumferemce() {
+    public double circumference() {
         double lambda = (getMainAxis() - getMinorAxis()) / (getMainAxis() + getMinorAxis());
         return (getMainAxis() + getMinorAxis()) * Math.PI * (1 + ((3 * lambda * lambda)) / (10 + Math.sqrt(4 - 3 * lambda * lambda)));
     }

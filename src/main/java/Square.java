@@ -2,7 +2,7 @@ public class Square extends Figure {
     private double[] coordinates = new double[2];
     private double length;
 
-    public Square(double[] coordinates, int length) {
+    public Square(double[] coordinates, double length) {
         this.setCoordinates(coordinates);
         this.setLength(length);
     }
@@ -13,13 +13,13 @@ public class Square extends Figure {
     }
 
     @Override
-    public double circumferemce() {
+    public double circumference() {
         return 4 * getLength();
     }
 
     @Override
     public String toString() {
-        return "Rechteck mit Länge = " + getLength() + super.toString();
+        return "Quadrat mit Länge = " + getLength() + super.toString();
     }
 
     //region Getter and Setter
